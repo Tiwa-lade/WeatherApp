@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: bisque;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 50px;
+    text-shadow: 2px 5px white;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+    padding-left: 15px;
+}
+
+input{
+    width: 30%;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: rgb(161, 153, 153);
+    color: white;
+    border-radius: 16px 2px ;
+    font-size: 20px;
+    transition: 2s ease-in-out;
+    border-bottom: 2px solid green;
+}
+
+button{
+    width:60px;
+    padding-left: 3px;
+    margin-left: 5px;
+    height: 30px;
+    background-color:rgb(161, 153, 153);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    border-bottom: 2px solid green;
+}
+
+button:focus{
+    background-color:aqua;
+}
+
+main{
+    display:flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding-top: 30px;
+    font-weight: bold;
+}
+
+.location{
+    font-size: 60px;
+    margin-bottom: 5px;
+}
+
+.date{
+    font-size: 25px;
+}
+
+.temp{
+    font-size: 100px;
+    margin-top: 20px;
+}
+
+.weather{
+    font-size: 25px;
+    font-style: oblique;
+    margin-top: 5px;
+}
+
+.lg-lt{
+    font-size: 25px;
+    margin-top: 10px;
+}
